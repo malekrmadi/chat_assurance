@@ -1,0 +1,56 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel
+.venv/
+env/
+venv/
+
+# Fichiers de log
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.bak
+*.old
+.DS_Store
+Thumbs.db
+
+# Variables d’environnement / Secrets
+.env
+.env.*
+
+# Base de données locale (SQLite)
+*.db
+*.sqlite3
+
+# Dossiers liés à Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache pip
+pip-wheel-metadata/
+__pypackages__/
+
+# Dossiers de test / artefacts
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Rapport Streamlit
+.streamlit/
+
+# VSCode
+.vscode/
+
+# MacOS & Windows artefacts
+.DS_Store
+ehthumbs.db
+Icon?
